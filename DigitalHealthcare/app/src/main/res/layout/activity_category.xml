@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/civil1"
+                android:layout_marginRight="40dp"
+                android:padding="15dp"
+                android:background="@drawable/rounded_white"
+                android:text="Heart"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/electric"
+                android:layout_marginRight="40dp"
+                android:padding="15dp"
+                android:background="@drawable/rounded_white"
+                android:text="Brain"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/agri"
+                android:layout_marginRight="40dp"
+                android:padding="15dp"
+                android:background="@drawable/rounded_white"
+                android:text="Eye"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/furniture"
+                android:layout_marginRight="40dp"
+                android:padding="15dp"
+                android:background="@drawable/rounded_white"
+                android:text="Hair"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/repairs"
+                android:layout_marginRight="40dp"
+                android:padding="15dp"
+                android:background="@drawable/rounded_white"
+                android:text="Pentist"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/home"
+                android:layout_marginRight="40dp"
+                android:padding="15dp"
+                android:background="@drawable/rounded_white"
+                android:text="Cancer"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/realestate"
+                android:layout_marginRight="40dp"
+                android:padding="15dp"
+                android:background="@drawable/rounded_white"
+                android:text="Handicap"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/training"
+                android:layout_marginRight="40dp"
+                android:padding="15dp"
+                android:background="@drawable/rounded_white"
+                android:text="Eair"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/shopping"
+                android:layout_marginRight="40dp"
+                android:padding="15dp"
+                android:background="@drawable/rounded_white"
+                android:text="Bones"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/cab"
+                android:layout_marginRight="40dp"
+                android:padding="15dp"
+                android:background="@drawable/rounded_white"
+                android:text="Stomach"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

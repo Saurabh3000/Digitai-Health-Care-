@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/all_background"
+    tools:context="com.example.owner.nfcadminapplication.AddDoctor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:drawableLeft="@android:drawable/arrow_up_float"
+                android:hint="Category"
+                android:inputType="text"
+                android:padding="1dp" />
+
+            <EditText
+                android:id="@+id/subcategory"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:drawableLeft="@android:drawable/arrow_down_float"
+                android:hint="Subcategory"
+                android:inputType="text"
+                android:padding="1dp" />
+
+
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:drawableLeft="@android:drawable/ic_menu_myplaces"
+                android:hint="Hospital Name"
+                android:padding="1dp" />
+
+            <EditText
+                android:id="@+id/arate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:maxLength="10"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:drawableLeft="@android:drawable/ic_menu_call"
+                android:hint="Actual Rate"
+                android:inputType="phone"
+                android:padding="1dp" />
+
+            <EditText
+                android:id="@+id/orate"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_white"
+                android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+                android:hint="Offer Rate"
+                android:padding="1dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="70dp"
+                android:id="@+id/addUserD"
+                android:textSize="27dp"
+                android:layout_marginRight="70dp"
+                android:padding="15dp"
+                android:background="#f26c78"
+                android:text="Add"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
